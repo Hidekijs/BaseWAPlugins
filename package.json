@@ -1,0 +1,20 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Base",
+    "Bot de WhatsApp"
+  ],
+  "author": "Hideki",
+  "license": "MIT",
+  "description": "Bot base para WhatsApp",
+  "dependencies": {
+    "baileys": "npm:@whiskeysockets/baileys@latest",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
