@@ -20,7 +20,8 @@ function connectToWA() {
 			keys: makeCacheableSignalKeyStore(state.keys, logger)
 		},
 		generateHighQualityLinkPreview: true,
-		browser: [ "Ubuntu", "Edge", "20.0.04" ]
+		version: [2, 3000, 1013451599],
+		browser: [ "Ubuntu", "Chrome", "20.0.04" ]
 	})
 
 	sock.ev.on("creds.update", saveCreds);
